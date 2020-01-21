@@ -1,0 +1,30 @@
+BUG & ERROR
+-TOMBOL SIMPAN (LIHAT GAMBAR @KAMAR) (DONE)
+-EDIT & DETAIL FASILITAS @KAMAR (LOSS)
+-pada saat hapus kosan & KAMAR photo tidak ikut terhapus (DONE)
+-hapus form cari kosan @frontend (DONE)
+-hapus pagination @frontend (DONE)
+-link setting di navbar @backend (DONE)
+-TAMBAH GAMBAR DEFAULT KOSAN & KAMAR KETIKA USER TIDAK INPUT (DONE)
+-CEK KAMAR TERSEDIA (DONE)
+-remove kelola pesan di sidebar @backend (DONE)
+-validasi logout di navbar (DONE)
+-masalah role session
+-detail customer tidak muncul (LOSS)
+-hapus customer 
+-hapus transaksi
+-parallax navbar @frontend (DONE)
+-tambah fitur lihat gambar @admin (DONE)
+-kelola pesan @admin (DONE)
+-gambar user saat detail @admin (DONE)
+-fitur backup database @admin
+-hapus link setting @admin (DONE)
+-chart @admin (DONE){
+	Main chart : TOTAL AKTIFITAS PADA APLIKASI
+}
+-NOTIFIKASI (DONE)
+-jumlah kamar tidak masuk @konfirmasi
+-lock for update kunci sql
+-mengembalikan nilai kamar tersedia jika user cancel order (DONE)
+-TAMBAH TABEL RIWAYAT PEMBELIAN UNTUK USER (DONE)
+-DELETE OTOMATIS USER KELUAR

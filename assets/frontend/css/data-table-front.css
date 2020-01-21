@@ -1,0 +1,13 @@
+th,
+td {
+	white-space: nowrap;
+}
+
+#table-riwayat {
+	width: 800px;
+	margin: 0 auto;
+}
+
+tr {
+	height: 50px;
+}

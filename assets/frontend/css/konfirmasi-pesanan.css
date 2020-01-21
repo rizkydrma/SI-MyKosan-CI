@@ -1,0 +1,99 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+img.logo {
+    height: 35px;
+}
+
+.bg-main {
+    background-color: #3A4B5C;
+}
+
+.btn-join {
+    background-color: #14877F;
+}
+
+.btn-pesan {
+    background-color: #F28029;
+}
+
+.color-main {
+    color: #3A4B5C;
+}
+
+.bold {
+    font-weight: bold !important;
+}
+
+.judul-page {
+    color: #3A4B5C;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 5px 5px #d8d6d6;
+    /*  */
+    height: 8vh;
+    padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+    .tombol-nav {
+        width: 100px;
+        background-color: #14877F;
+    }
+
+    .tombol-nav-left {
+        border-top-left-radius: 21pt;
+        border-bottom-left-radius: 21pt;
+        text-align: center;
+    }
+
+    .tombol-nav-right {
+        border-top-right-radius: 21pt;
+        border-bottom-right-radius: 21pt;
+    }
+
+    .judul-page {
+        /*  */
+        height: 10vh;
+        padding-top: 20px;
+    }
+
+    .container-info {
+        width: 100%;
+        height: 100%;
+        border: 1px solid rgba(0, 0, 0, 0.13);
+        border-radius: 5px;
+        box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.295);
+        padding: 20px;
+    }
+
+    .informasi-kamar img {
+        width: 100%;
+        height: 100%;
+    }
+
+    input.input-info {
+
+        border-radius: 10px;
+        background-color: #68748041;
+        padding-left: 15px;
+        font-size: 18px;
+    }
+
+    .input-block {
+        width: 40vw;
+    }
+
+    .input-block2 {
+        width: 18.5vw;
+    }
+
+    .footer {
+        width: 100%;
+        height: 7vh;
+        background-color: white;
+        box-shadow: 0px -5px 5px #d8d6d6;
+        padding: 10px;
+    }
+}

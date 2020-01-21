@@ -1,0 +1,44 @@
+.form-group input[type=file] {
+	opacity: 1;
+	position: relative;
+}
+
+.content {
+	background: linear-gradient(to right, #0c2646 0%, #204065 60%, #2a5788 100%) !important;
+}
+
+th {
+	font-size: 13px !important;
+	font-weight: bold !important;
+	color: linear-gradient(to right, #0c2646 0%, #204065 60%, #2a5788 100%) !important;
+	;
+}
+
+a.badge.badge-pill {
+	cursor: pointer;
+}
+
+.gambar {
+	width: 7vw;
+}
+
+.toast{
+	opacity: 1 !important;
+}
+
+.panel-header.topChart{
+	height: 420px !important;
+}
+#myChart{
+	height: 320px !important;
+}
+.content.chart{
+	background: linear-gradient(to right, #ebebeb 0%, #efeff0 60%, #ffffff 100%) !important;
+	margin-top: -15px !important;
+}
+
+.notifikasi {
+    width: 300px;
+    padding: 10px 10px;
+    text-align: center;
+}

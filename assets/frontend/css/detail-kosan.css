@@ -1,0 +1,125 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+img.logo {
+    height: 35px;
+}
+
+.bg-main {
+    background-color: #3A4B5C;
+}
+
+.btn-join {
+    background-color: #14877F;
+}
+
+.btn-pesan {
+    background-color: #F28029;
+}
+
+.color-main {
+    color: #3A4B5C;
+}
+
+
+.judul-page {
+    color: #3A4B5C;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 5px 5px #d8d6d6;
+    /*  */
+    height: 8vh;
+    padding-top: 20px;
+}
+
+.isi .konten {
+    border: 1px solid rgba(0, 0, 0, 0.116);
+    padding: 15px;
+    box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.11);
+}
+
+#judul-kosan {
+    font-weight: bold;
+}
+
+p.inline-kosan {
+    display: inline;
+    font-size: 15px;
+}
+
+
+@media (min-width: 768px) {
+    .tombol-nav {
+        width: 100px;
+        background-color: #14877F;
+    }
+
+    .tombol-nav-left {
+        border-top-left-radius: 21pt;
+        border-bottom-left-radius: 21pt;
+        text-align: center;
+    }
+
+    .tombol-nav-right {
+        border-top-right-radius: 21pt;
+        border-bottom-right-radius: 21pt;
+    }
+
+    .judul-page {
+        /*  */
+        height: 10vh;
+        padding-top: 20px;
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: 75% 25%;
+        grid-row-gap: 20px;
+    }
+
+    .grid-container>div>img {
+        box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.164);
+        border-radius: 5px;
+
+    }
+
+    .item1 {
+        grid-row: 1/4;
+    }
+
+    .item1 img {
+        height: 100%;
+    }
+
+    .img-block {
+        width: 100%;
+    }
+
+    .item2,
+    .item3,
+    .item4 {
+        margin-left: 20px;
+    }
+
+    .fasilitas-kosan {
+        display: inline;
+    }
+
+    .img-kamar {
+        width: 100%;
+    }
+
+    section.footer {
+        height: 28vh;
+        background-color: #576B83;
+    }
+
+    .btn-send {
+        background-color: #576B83;
+    }
+
+    section.footer i {
+        font-size: 15px;
+    }
+}

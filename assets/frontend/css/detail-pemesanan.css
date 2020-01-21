@@ -1,0 +1,470 @@
+body {
+	font-family: 'Raleway', sans-serif;
+
+}
+
+.manage-user {
+	min-height: 53vh;
+}
+
+.row {
+	margin: 0;
+}
+
+img.logo {
+	height: 55px;
+}
+
+.user,
+.user img,
+.user a {
+	display: inline-block;
+}
+
+.user img {
+	height: 28px;
+}
+
+.bg-main {
+	background-color: #3A4B5C;
+}
+
+.btn-join {
+	background-color: #14877F;
+}
+
+.btn-pesan {
+	background-color: #F28029;
+}
+
+.color-main {
+	color: #3A4B5C;
+}
+
+.color-join {
+	color: #14877F;
+}
+
+.bold {
+	font-weight: bold !important;
+}
+
+/* INDEX PAGE */
+section.top {
+	height: 100%;
+	background: url('../img/bg-home.jpg');
+
+}
+
+.tagline {
+	position: relative;
+	top: 50px;
+	text-align: center;
+}
+
+.tagline h1 {
+	font-size: 35px;
+	font-weight: 200;
+	text-shadow: 10px 5px 20px black;
+}
+
+.join {
+	position: relative;
+	top: 150px;
+	text-align: center;
+}
+
+.join h2 {
+	font-size: 25px;
+	font-weight: bold;
+	text-shadow: 10px 5px 30px black;
+	letter-spacing: 2px;
+}
+
+.judul-page {
+	color: #3A4B5C;
+	width: 100%;
+	background-color: white;
+	box-shadow: 0px 5px 5px #d8d6d6;
+	/*  */
+	height: 8vh;
+	padding-top: 20px;
+}
+
+.isi .konten {
+	border: 1px solid rgba(0, 0, 0, 0.116);
+	padding: 15px;
+	box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.11);
+}
+
+#judul-kosan {
+	font-weight: bold;
+}
+
+p.inline-kosan {
+	display: inline;
+	font-size: 15px;
+}
+
+section.daftar-kosan{
+	min-height: 50vh;
+}
+@media (min-width: 768px) {
+
+	/* INDEX PAGE */
+	section.top {
+		height: 100vh;
+		background: url('../img/bg-home.jpg') no-repeat;
+		background-size: 100%;
+	}
+
+	.tagline {
+		position: relative;
+		top: 121px;
+		text-align: right;
+
+	}
+
+	.tagline h1 {
+		font-size: 50px;
+	}
+
+	.line-1 {
+		width: 5px;
+		height: 500px;
+		background-color: white;
+		position: absolute;
+		top: 0px;
+		z-index: 99;
+	}
+
+	.join {
+		position: relative;
+		top: 250px;
+		left: 50px;
+		text-align: left;
+
+	}
+
+	.join h2 {
+		font-size: 25px;
+		font-weight: bold;
+		text-shadow: 10px 5px 30px black;
+		letter-spacing: 2px;
+	}
+
+	.btn-join {
+		background-color: #14877F;
+		width: 180px;
+	}
+
+	.line-2 {
+		width: 635px;
+		height: 5px;
+		background-color: white;
+		position: absolute;
+		top: 567px;
+		right: 0;
+		z-index: 99;
+	}
+
+	section.form-cari .kotak {
+		width: 100%;
+		height: 250px;
+		border-radius: 51px;
+		background-color: rgba(96, 118, 142, 0.815);
+		position: relative;
+		top: -50px;
+	}
+
+	section.about {
+		height: 110vh;
+	}
+
+	img.search-ui {
+		width: 320px;
+		height: 320px;
+		position: relative;
+		top: -70px;
+	}
+
+	section.about p {
+		letter-spacing: 1px;
+	}
+
+	img.teamwork-ui {
+		width: 500px;
+		height: 294px;
+		position: relative;
+		top: -70px;
+	}
+
+	.line-3 {
+		width: 5px;
+		height: 500px;
+		background-color: #596F87;
+		position: absolute;
+		top: 100vh;
+		right: 90px;
+		z-index: 99;
+	}
+
+	.line-4 {
+		width: 635px;
+		height: 5px;
+		background-color: #596F87;
+		position: absolute;
+		top: 190vh;
+		left: 0;
+		z-index: 99;
+	}
+
+	section.contact {
+		height: 100vh;
+	}
+
+	img.review-ui {
+		width: 380px;
+		height: 307px;
+	}
+
+	.kotak-contact {
+		width: 100%;
+		height: 57vh;
+		border: 2px solid #576B83;
+		border-radius: 32px;
+	}
+
+	.btn-send {
+		background-color: #576B83;
+	}
+
+	.line-5 {
+		width: 5px;
+		background-color: #576B83;
+		position: relative;
+		left: 100px;
+		z-index: 99;
+	}
+
+	.cari-button {
+		width: 7vw;
+	}
+
+	/* DETAIL KOSAN */
+	.grid-container {
+		display: grid;
+		grid-template-columns: 75% 25%;
+		grid-row-gap: 20px;
+	}
+
+	.grid-container>div>img {
+		box-shadow: -5px 5px 10px rgba(0, 0, 0, 0.164);
+		border-radius: 5px;
+
+	}
+
+	.item1 {
+		grid-row: 1/4;
+	}
+
+	.item1 img {
+		height: 100%;
+	}
+
+	.img-block {
+		width: 100%;
+	}
+
+	.item2,
+	.item3,
+	.item4 {
+		margin-left: 20px;
+	}
+
+	.fasilitas-kosan {
+		display: inline;
+	}
+
+	.img-kamar {
+		height: 300px;
+	}
+
+	.tombol-nav {
+		width: 100px;
+		background-color: #14877F;
+	}
+
+	.tombol-nav-left {
+		border-top-left-radius: 21pt;
+		border-bottom-left-radius: 21pt;
+		text-align: center;
+	}
+
+	.tombol-nav-right {
+		border-top-right-radius: 21pt;
+		border-bottom-right-radius: 21pt;
+	}
+
+	.judul-page {
+		/*  */
+		height: 10vh;
+		padding-top: 20px;
+	}
+
+	.container-info {
+		width: 100%;
+		height: 100%;
+		border: 1px solid rgba(0, 0, 0, 0.13);
+		border-radius: 5px;
+		box-shadow: -5px 5px 15px rgba(0, 0, 0, 0.295);
+		padding: 20px;
+	}
+
+	.detail-pemesanan img {
+		width: 100%;
+	}
+
+
+	.footer-simple {
+		width: 100%;
+		height: 7vh;
+		background-color: white;
+		box-shadow: 0px -5px 5px #d8d6d6;
+		padding: 10px;
+	}
+
+
+	/* LOGIN PAGE */
+	h6 a {
+		font-size: 13px;
+		color: #3A4B5C;
+	}
+
+	/* SignUP OWNER */
+
+
+
+	/* DETAIL PEMESANAN */
+	.informasi-kamar img {
+		width: 100%;
+		height: 100%;
+	}
+
+	input.input-info {
+		border: none;
+		border-radius: 10px;
+		background-color: #68748041;
+		padding-left: 15px;
+		font-size: 18px;
+	}
+
+	.input-block {
+		width: 40vw;
+	}
+
+	.input-block2 {
+		width: 18.5vw;
+	}
+
+	/* KOSAN PAGE */
+	.form-kosan {
+		height: 37vh;
+	}
+
+	.form-kosan .btn-join {
+		width: 20vw;
+	}
+
+
+
+
+	svg.svg-inline--fa.fa-home.fa-w-18 {
+		/*  */
+		font-size: 20px;
+	}
+
+	.judul-page h4 {
+		display: inline;
+		font-weight: bold;
+		/*  */
+		font-size: 20px;
+	}
+
+	.form-kosan {
+		height: 40vh;
+		width: 100%;
+		background-color: white;
+		box-shadow: 0px 5px 5px #d8d6d6;
+	}
+
+	.form-kosan .btn-join {
+		width: 40vw;
+	}
+
+	.cari-kosan {
+
+		background-color: #3A4B5C;
+		border-top-left-radius: 25px;
+		border-bottom-left-radius: 25px;
+		/*  */
+		margin-top: 5vh;
+		height: 15vh;
+	}
+
+	input#nama_kosan {
+		display: inline;
+		width: 70%;
+	}
+
+
+	.card {
+		box-shadow: -10px 10px 9px #0000001c;
+		color: #3A4B5C;
+	}
+
+	.card h5 {
+		font-weight: bold;
+	}
+
+	p.alamat-kosan {
+		display: inline;
+		font-size: 15px;
+	}
+
+	#card-button {
+		width: 100%;
+		font-size: 10px;
+	}
+
+	.btn-pesan {
+		background-color: #E57017;
+	}
+
+	section.footer {
+		height: 28vh;
+		background-color: #576B83;
+	}
+
+	.btn-send {
+		background-color: #576B83;
+	}
+
+	section.footer i {
+		font-size: 15px;
+	}
+
+	.line-5 {
+		width: 5px;
+		height: 500px;
+		background-color: #576B83;
+		position: relative;
+		left: 100px;
+		bottom: 650px;
+		z-index: 99;
+	}
+}
+
+.container.map img{
+	width: 100%;
+}

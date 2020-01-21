@@ -1,0 +1,157 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.row {
+    margin-right: 0px;
+}
+
+img.logo {
+    height: 35px;
+}
+
+.bg-main {
+    background-color: #3A4B5C;
+}
+
+.btn-join {
+    background-color: #14877F;
+}
+
+
+
+.color-main {
+    color: #3A4B5C;
+}
+
+.judul-page {
+    color: #3A4B5C;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 5px 5px #d8d6d6;
+    /*  */
+    height: 8vh;
+    padding-top: 20px;
+}
+
+svg.svg-inline--fa.fa-home.fa-w-18 {
+    /*  */
+    font-size: 20px;
+}
+
+.judul-page h4 {
+    display: inline;
+    font-weight: bold;
+    /*  */
+    font-size: 20px;
+}
+
+.form-kosan {
+    height: 60vh;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 5px 5px #d8d6d6;
+}
+
+.form-kosan .btn-join {
+    width: 40vw;
+}
+
+.cari-kosan {
+
+    background-color: #3A4B5C;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    /*  */
+    margin-top: 6.5vh;
+    height: 12vh;
+}
+
+input#nama_kosan {
+    display: inline;
+    width: 70%;
+}
+
+
+.card {
+    box-shadow: -10px 10px 9px #0000001c;
+    color: #3A4B5C;
+}
+
+.card h5 {
+    font-weight: bold;
+}
+
+p.alamat-kosan {
+    display: inline;
+    font-size: 15px;
+}
+
+#card-button {
+    width: 100%;
+    font-size: 10px;
+}
+
+.btn-pesan {
+    background-color: #E57017;
+}
+
+section.footer {
+    height: 28vh;
+    background-color: #576B83;
+}
+
+.btn-send {
+    background-color: #576B83;
+}
+
+section.footer i {
+    font-size: 15px;
+}
+
+.line-5 {
+    width: 5px;
+    height: 500px;
+    background-color: #576B83;
+    position: relative;
+    left: 100px;
+    bottom: 650px;
+    z-index: 99;
+}
+
+@media (min-width: 768px) {
+    .tombol-nav {
+        width: 100px;
+        background-color: #14877F;
+    }
+
+    .tombol-nav-left {
+        border-top-left-radius: 21pt;
+        border-bottom-left-radius: 21pt;
+        text-align: center;
+    }
+
+    .tombol-nav-right {
+        border-top-right-radius: 21pt;
+        border-bottom-right-radius: 21pt;
+    }
+
+    .judul-page {
+        /*  */
+        height: 10vh;
+        padding-top: 20px;
+    }
+
+    .form-kosan {
+        height: 37vh;
+    }
+
+    .form-kosan .btn-join {
+        width: 20vw;
+    }
+
+    .cari-kosan {
+        margin-top: 5vh;
+        height: 15vh;
+    }
+}
